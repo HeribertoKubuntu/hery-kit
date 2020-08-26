@@ -2,7 +2,7 @@
     "name": "hery-material-kit",
     "description": "Ghost Template Theme",
     "demo": "https://material-kit-ghost.creative-tim.com/",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "engines": {
         "ghost-api": "v3"
     },

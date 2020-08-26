@@ -49,7 +49,16 @@ into the {body} of the default.hbs template --}}
           {{#if @labs.subscribers}}
           <section class="subscribe-form">
               <h3 class="subscribe-form-title">Subscribe to {{@site.title}}</h3>
-              <p>Get the latest posts delivered right to your inbox</p>
+              <p>Stay up to date! Get all the post and Unlock content only for Members</p>
+              {{subscribe_form placeholder="youremail@example.com"}}
+          </section>
+          {{/if}}
+          
+           {{!-- Email subscribe form at the bottom of the page --}}
+          {{#if @labs.members}}
+          <section class="subscribe-form">
+              <h3 class="subscribe-form-title">Subscribe to {{@site.title}}</h3>
+              <p>Stay up to date! Get all the post and Unlock content only for Members</p>
               {{subscribe_form placeholder="youremail@example.com"}}
           </section>
           {{/if}}
